@@ -5,7 +5,7 @@ A smiple demonstration of SINDY (Sparse Identification of Nonlinear Dynamics) to
 SINDY is an algorithm that "combine(s) sparsity-promoting techniques and machine learning with nonlinear dynamical systems to discover governing equations from noisy measurement data". In the jupyter notebook, we retrieve the latest data from [CSSEGISandData
 /COVID-19](https://github.com/CSSEGISandData/COVID-19) and trained a regression model that has sparse coefficient while powerful enough to describe the given training data.
 
-We trained the model using 26 data points of recoeds in Hubei, and used it to predict future Japan data. It is interesting that, given only 26 data, the model is able to produce prediction that is similar to [SIR model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) commonly used in eppidemiology.
+We trained the model using 26 data points of recoeds in Hubei, and used it to predict future Japan data. **It is interesting that, given only 26 data, the model is able to produce prediction that is similar to [SIR model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) commonly used in eppidemiology.**
 
 This experiment is conducted on Google colaboratory.[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/COVID-19-SINDY/blob/master/covid-19_SINDY.ipynb)
 
