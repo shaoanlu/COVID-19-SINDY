@@ -1,5 +1,5 @@
 # COVID-19-SINDY
-Use SINDY (Sparse Identification of Nonlinear Dynamics) algorithm to discover a dynamical system from coronavirus data
+A smiple demonstration of SINDY (Sparse Identification of Nonlinear Dynamics) to discover a dynamical system from real coronavirus time series data
 
 ## Description
 SINDY is an algorithm that "combine(s) sparsity-promoting techniques and machine learning with nonlinear dynamical systems to discover governing equations from noisy measurement data". In the jupyter notebook, we retrieve the latest data from [CSSEGISandData
