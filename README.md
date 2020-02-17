@@ -13,13 +13,13 @@ This experiment is conducted on Google colaboratory.[![Open In Colab](https://co
 ### Training data (time series records in Hubei from 22/01/2020 to 16/02/2020)
 ![](https://github.com/shaoanlu/COVID-19-SINDY/raw/master/imgs/trn.png)
 
-Given number of confirmed cases x_c, deaths x_d, and recovered cases x_r, the dynamical system onbtained is as follow:
+Given number of confirmed cases x_c, deaths x_d, and recovered cases x_r, the dynamical system onbtained is:
 
 <img src="https://render.githubusercontent.com/render/math?math=\dot{x}_{c}=-0.324x_{c}-16.27x_{d}%2B15.486x_{r}%2B0.036x_{r}^2%2B799.84662">
 
 <img src="https://render.githubusercontent.com/render/math?math=\dot{x}_{d}=0.061x_{c}%2B0.117x_{d}-1.88x_{r}%2B14.988">
 
-<img src="https://render.githubusercontent.com/render/math?math=\dot{x}_{r}=-0.0291x_{d}%2B0.171x_{r}%2B5.411">
+<img src="https://render.githubusercontent.com/render/math?math=\dot{x}_{r}=-0.0291x_{d}%2B0.171x_{r}%2B5.411">.
 
 ### 30-day prediction in Japan (record on 16/02/2020 as initial condition)
 We then used the learnt model to predict infection cases in Japan in the coming 30 days.
