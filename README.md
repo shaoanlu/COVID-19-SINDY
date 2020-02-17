@@ -21,7 +21,7 @@ Given number of confirmed cases x_c, deaths x_d, and recovered cases x_r, the dy
 
 <img src="https://render.githubusercontent.com/render/math?math=\dot{x}_{r}=-0.0291x_{d}%2B0.171x_{r}%2B5.411">.
 
-### 30-day prediction in Japan (record on 16/02/2020 as initial condition)
+### 30-day prediction in Japan (record at 16/02/2020 as initial condition)
 We then used the learnt model to predict number of infectios in Japan in the coming 30 days (unit of x-axis is 0.3 day).
 
 ![](https://github.com/shaoanlu/COVID-19-SINDY/raw/master/imgs/pred.png)
